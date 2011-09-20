@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D21CB41427C79700818885 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D21CB31427C79700818885 /* UIKit.framework */; };
+		07D21CB61427C79700818885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D21CB51427C79700818885 /* Foundation.framework */; };
+		07D21CB81427C79700818885 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D21CB71427C79700818885 /* CoreGraphics.framework */; };
+		07D21CBE1427C79700818885 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07D21CBC1427C79700818885 /* InfoPlist.strings */; };
+		07D21CC01427C79700818885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D21CBF1427C79700818885 /* main.m */; };
+		07D21CC41427C79700818885 /* SlidingCellAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D21CC31427C79700818885 /* SlidingCellAppDelegate.m */; };
+		07D21CC71427C79700818885 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D21CC51427C79700818885 /* MainWindow.xib */; };
+		07D21CCA1427C79700818885 /* SlidingCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D21CC91427C79700818885 /* SlidingCellViewController.m */; };
+		07D21CCD1427C79700818885 /* SlidingCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D21CCB1427C79700818885 /* SlidingCellViewController.xib */; };
+		07D21CD91427D5BA00818885 /* AASlidingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D21CD81427D5BA00818885 /* AASlidingCell.m */; };
+		07D21CDC1427DC9F00818885 /* AASlidingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D21CDB1427DC9F00818885 /* AASlidingCell.xib */; };
+		07D21CE01428462E00818885 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D21CDF1428462E00818885 /* arrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07D21CAF1427C79700818885 /* SlidingCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D21CB31427C79700818885 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07D21CB51427C79700818885 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07D21CB71427C79700818885 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07D21CBB1427C79700818885 /* SlidingCell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlidingCell-Info.plist"; sourceTree = "<group>"; };
+		07D21CBD1427C79700818885 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07D21CBF1427C79700818885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07D21CC11427C79700818885 /* SlidingCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlidingCell-Prefix.pch"; sourceTree = "<group>"; };
+		07D21CC21427C79700818885 /* SlidingCellAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidingCellAppDelegate.h; sourceTree = "<group>"; };
+		07D21CC31427C79700818885 /* SlidingCellAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingCellAppDelegate.m; sourceTree = "<group>"; };
+		07D21CC61427C79700818885 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		07D21CC81427C79700818885 /* SlidingCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidingCellViewController.h; sourceTree = "<group>"; };
+		07D21CC91427C79700818885 /* SlidingCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingCellViewController.m; sourceTree = "<group>"; };
+		07D21CCC1427C79700818885 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SlidingCellViewController.xib; sourceTree = "<group>"; };
+		07D21CD71427D5BA00818885 /* AASlidingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASlidingCell.h; sourceTree = "<group>"; };
+		07D21CD81427D5BA00818885 /* AASlidingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AASlidingCell.m; sourceTree = "<group>"; };
+		07D21CDB1427DC9F00818885 /* AASlidingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AASlidingCell.xib; sourceTree = "<group>"; };
+		07D21CDF1428462E00818885 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		07D21CE11428547E00818885 /* AASlidingCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AASlidingCellDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D21CAC1427C79700818885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D21CB41427C79700818885 /* UIKit.framework in Frameworks */,
+				07D21CB61427C79700818885 /* Foundation.framework in Frameworks */,
+				07D21CB81427C79700818885 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D21CA41427C79700818885 = {
+			isa = PBXGroup;
+			children = (
+				07D21CB91427C79700818885 /* SlidingCell */,
+				07D21CB21427C79700818885 /* Frameworks */,
+				07D21CB01427C79700818885 /* Products */,
+				07D21CDF1428462E00818885 /* arrow.png */,
+			);
+			sourceTree = "<group>";
+		};
+		07D21CB01427C79700818885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D21CAF1427C79700818885 /* SlidingCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D21CB21427C79700818885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D21CB31427C79700818885 /* UIKit.framework */,
+				07D21CB51427C79700818885 /* Foundation.framework */,
+				07D21CB71427C79700818885 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07D21CB91427C79700818885 /* SlidingCell */ = {
+			isa = PBXGroup;
+			children = (
+				07D21CC21427C79700818885 /* SlidingCellAppDelegate.h */,
+				07D21CC31427C79700818885 /* SlidingCellAppDelegate.m */,
+				07D21CC51427C79700818885 /* MainWindow.xib */,
+				07D21CC81427C79700818885 /* SlidingCellViewController.h */,
+				07D21CC91427C79700818885 /* SlidingCellViewController.m */,
+				07D21CCB1427C79700818885 /* SlidingCellViewController.xib */,
+				07D21CBA1427C79700818885 /* Supporting Files */,
+				07D21CD71427D5BA00818885 /* AASlidingCell.h */,
+				07D21CD81427D5BA00818885 /* AASlidingCell.m */,
+				07D21CE11428547E00818885 /* AASlidingCellDelegate.h */,
+				07D21CDB1427DC9F00818885 /* AASlidingCell.xib */,
+			);
+			path = SlidingCell;
+			sourceTree = "<group>";
+		};
+		07D21CBA1427C79700818885 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D21CBB1427C79700818885 /* SlidingCell-Info.plist */,
+				07D21CBC1427C79700818885 /* InfoPlist.strings */,
+				07D21CBF1427C79700818885 /* main.m */,
+				07D21CC11427C79700818885 /* SlidingCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D21CAE1427C79700818885 /* SlidingCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D21CD01427C79700818885 /* Build configuration list for PBXNativeTarget "SlidingCell" */;
+			buildPhases = (
+				07D21CAB1427C79700818885 /* Sources */,
+				07D21CAC1427C79700818885 /* Frameworks */,
+				07D21CAD1427C79700818885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingCell;
+			productName = SlidingCell;
+			productReference = 07D21CAF1427C79700818885 /* SlidingCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D21CA61427C79700818885 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 07D21CA91427C79700818885 /* Build configuration list for PBXProject "SlidingCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07D21CA41427C79700818885;
+			productRefGroup = 07D21CB01427C79700818885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D21CAE1427C79700818885 /* SlidingCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D21CAD1427C79700818885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D21CBE1427C79700818885 /* InfoPlist.strings in Resources */,
+				07D21CC71427C79700818885 /* MainWindow.xib in Resources */,
+				07D21CCD1427C79700818885 /* SlidingCellViewController.xib in Resources */,
+				07D21CDC1427DC9F00818885 /* AASlidingCell.xib in Resources */,
+				07D21CE01428462E00818885 /* arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D21CAB1427C79700818885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D21CC01427C79700818885 /* main.m in Sources */,
+				07D21CC41427C79700818885 /* SlidingCellAppDelegate.m in Sources */,
+				07D21CCA1427C79700818885 /* SlidingCellViewController.m in Sources */,
+				07D21CD91427D5BA00818885 /* AASlidingCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07D21CBC1427C79700818885 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D21CBD1427C79700818885 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07D21CC51427C79700818885 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D21CC61427C79700818885 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		07D21CCB1427C79700818885 /* SlidingCellViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D21CCC1427C79700818885 /* en */,
+			);
+			name = SlidingCellViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D21CCE1427C79700818885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07D21CCF1427C79700818885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D21CD11427C79700818885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingCell/SlidingCell-Prefix.pch";
+				INFOPLIST_FILE = "SlidingCell/SlidingCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07D21CD21427C79700818885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingCell/SlidingCell-Prefix.pch";
+				INFOPLIST_FILE = "SlidingCell/SlidingCell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D21CA91427C79700818885 /* Build configuration list for PBXProject "SlidingCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D21CCE1427C79700818885 /* Debug */,
+				07D21CCF1427C79700818885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D21CD01427C79700818885 /* Build configuration list for PBXNativeTarget "SlidingCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D21CD11427C79700818885 /* Debug */,
+				07D21CD21427C79700818885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D21CA61427C79700818885 /* Project object */;
+}
